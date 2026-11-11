@@ -1,0 +1,24 @@
+# Ambientes e dependências
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Configuração local
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Banco de dados locais
+*.db
+*.sqlite3
+
+# IDE e SO
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Saídas e artefatos
+build/
+dist/
+*.egg-info/
